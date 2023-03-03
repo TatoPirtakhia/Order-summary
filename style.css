@@ -1,0 +1,218 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./images/pattern-background-mobile.svg');
+}
+
+.mein {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 327px;
+    height: 567px;
+    background: white;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.image {
+    width: 327px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+.hero {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.title {
+    width: 263px;
+    height: 29px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.title h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 22px;
+    line-height: 29px;
+
+}
+
+.paragrap {
+    /* font-family: 'Red Hat Display',sans-serif; */
+    text-align: center;
+    width: 263px;
+    height: 75px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 24px;
+    color: #717FA6;
+
+}
+
+.container {
+    width: 250px;
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.change {
+    font-weight: 700;
+    color: #382AE1;
+}
+
+.buton {
+    margin-bottom: 15px;
+}
+
+button {
+    border: none;
+    width: 279px;
+    height: 50px;
+    border-radius: 11px;
+    background: #382AE1;
+    box-shadow: 0px 20px 20px rgba(50, 38, 214, 0.363);
+    color: white;
+    font-weight: bold;
+}
+.music_price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+}
+.musicimage{
+    margin-right: 20px;
+}
+
+
+.earn h4 {
+    margin-bottom: -10px;
+}
+
+.earn p {
+    color: #717FA6;
+}
+
+.order h4 {
+    color: #717FA6;
+}
+
+.change:hover a {
+    cursor: pointer;
+    color: #766CF1;
+    transition: 0.5s ease-in-out;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background: #766CF1;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+.order:hover h4 {
+    color: black;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+
+}
+
+
+@media screen and (min-width:1440px) {
+    body{
+        background:url('./images/pattern-background-desktop.svg') ;
+    }
+    .mein {
+        width: 450px;
+        height: 697px;
+
+    }
+
+    .image {
+        width: 450px;
+        height: 220px;
+        margin-bottom: 45px;
+    }
+
+    .hero {
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .title {
+        width: 354px;
+        height: 37px;
+        text-align: center;
+        margin-bottom: 17px;
+    }
+
+    .title h1 {
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 22px;
+        line-height: 38px;
+
+    }
+
+    .paragrap {
+        font-family: 'Red Hat Display', sans-serif;
+        text-align: center;
+        width: 354px;
+        height: 78px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 20px;
+        color: #717FA6;
+
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 330px;
+        height: 98px;
+        margin-bottom: 32px;
+    }
+    .musicimage {
+        margin-right: 20px;
+    }
+    
+    .earn {
+        margin-right: 70px;
+    }
+
+    .change a {
+        font-weight: 700;
+        color: #382AE1;
+    }
+
+    button {
+        border: none;
+        width: 354px;
+        height: 50px;
+        border-radius: 11px;
+        background: #382AE1;
+        box-shadow: 0px 20px 20px rgba(50, 38, 214, 0.363);
+        color: white;
+        font-weight: bold;
+    }
+
+    .musicimage {
+        margin-right: 20px;
+    }
+
+    .earn {
+        margin-right: 43px;
+    }
+}
