@@ -83,6 +83,7 @@ body {
     height: 100vh;
     background: url('./images/pattern-background-mobile.svg');
     background-repeat: no-repeat;
+    background-color: #F2F2F2;
 }
 
 .mein {
@@ -208,7 +209,7 @@ button:hover {
     body{
         background:url('./images/pattern-background-desktop.svg') ;
         background-repeat: no-repeat;
-        background-color: white;
+        background-color: #F2F2F2;
         background-size: 100%;
     }
     .mein {
