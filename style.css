@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     background: url('./images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
 }
 
 .mein {
@@ -133,6 +134,7 @@ button:hover {
 @media screen and (min-width:1440px) {
     body{
         background:url('./images/pattern-background-desktop.svg') ;
+        background-repeat: no-repeat;
     }
     .mein {
         width: 450px;
