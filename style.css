@@ -135,6 +135,8 @@ button:hover {
     body{
         background:url('./images/pattern-background-desktop.svg') ;
         background-repeat: no-repeat;
+        background-color: white;
+        background-size: 100%;
     }
     .mein {
         width: 450px;
