@@ -83,6 +83,7 @@ body {
     height: 100vh;
     background: url('./images/pattern-background-mobile.svg');
     background-repeat: no-repeat;
+    background-size: 100%;
     background-color: #F2F2F2;
 }
 
